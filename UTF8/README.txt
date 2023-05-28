@@ -5,5 +5,3 @@ Just run fdtext_utf8.exe to export text, change text, then run udtext_utf8 to im
 Pics in the folder are my test result.
 
 PS: The only important thing is [MUST OPEN TXT USING UTF-8 FORMAT AND NEVER CHANGE IT TO OTHERS]!
-
-PSS: The fdtext_utf8.exe can only replace FindText.exe, instead of FindText2.exe. The FindText2 will be later.(Similarly as UpdText2.exe)

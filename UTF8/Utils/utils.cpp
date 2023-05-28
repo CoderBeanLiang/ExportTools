@@ -9,6 +9,12 @@ unsigned char FENCE[4] = {0xEF, 0xBC, 0x8D, '\0'};
 // This is the linefeed in txt files instead of in game
 unsigned char CRLF[3] = {0x0D, 0x0A, '\0'};
 
+// The "→"(0xE28692) only used in slidemes.txt to split speaker and sentences
+unsigned char SLIDE_DOT[4] = {0xE2, 0x86, 0x92, '\0'};
+
+// The ccstx of slidemes contains UTF-8 BOM chars
+unsigned char UTF8_BOM[4] = {0xEF, 0xBB, 0xBF, '\0'};
+
 
 // Check if next "checkLen" chars are total matched
 bool IsAfterMatch(long hFile, unsigned char ref[], int checkLen)

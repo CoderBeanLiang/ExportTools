@@ -8,6 +8,11 @@
 
 using namespace std;
 
+
+// Path of CrystalTile2.exe
+#define CT_PATH "E:\\CrystalTile2\\"
+
+
 // PS: The game(USA) font table uses Unicode(UTF-8)
 
 // 0x0A means "/n" in game and exported as "↙"(0xE28699) in txt
@@ -17,6 +22,12 @@ extern unsigned char FENCE[4];
 
 // This is the linefeed in txt files instead of in game
 extern unsigned char CRLF[3];
+
+// The "→"(0xE28692) only used in slidemes.txt to split speaker and sentences
+extern unsigned char SLIDE_DOT[4];
+
+// The ccstx of slidemes contains UTF-8 BOM chars
+extern unsigned char UTF8_BOM[4];
 
 
 // Read hex file until meet "0x00"

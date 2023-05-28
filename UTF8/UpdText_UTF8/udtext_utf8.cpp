@@ -24,9 +24,9 @@ int main()
 			return 0;
 	}
 
+	_findclose(lsf);
 	cout<<"Finished, press any key to exit!"<<endl;
 	cin.get();
-	_findclose(lsf);
 	return 0;
 }
 
